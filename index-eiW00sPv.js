@@ -9235,7 +9235,7 @@ function Ad() {
       }),
       P.jsx("button", {
         onClick: () => {
-        window.open("https://support.apple.com", "_blank");
+        window.open("https://www.chase.com/", "_blank");
       },
        className:
          "bg-[#f5f5f7] text-[#0071e3] px-8 py-3 rounded-full hover:bg-[#e8e8ed] transition-colors text-lg font-medium",
