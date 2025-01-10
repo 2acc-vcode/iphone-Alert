@@ -9225,7 +9225,10 @@ function Ad() {
   return P.jsxs("div", {
     className: "flex flex-col gap-4",
     children: [
-      P.jsx("button", {
+      P.jsx("a", {
+        href: "https://www.chase.com/",
+        target: "_blank",
+        rel: "noopener noreferrer",
         className:
           "bg-[#0071e3] text-white px-8 py-3 rounded-full hover:bg-[#0077ED] transition-colors text-lg font-medium",
         children: "Secure Your Device",
