@@ -9222,14 +9222,13 @@ function $d() {
   });
 }
 function Ad() {
-  return P.jsxs("div", {
-    className: "flex flex-col gap-4",
-    children: [
-      P.jsx("button", {
-        className:
-          "bg-[#0071e3] text-white px-8 py-3 rounded-full hover:bg-[#0077ED] transition-colors text-lg font-medium",
-        children: "Secure Your Device",
-      }),
+  return P.jsx("a", {
+  href: "https://apps.apple.com/in/app/zoom-workplace/id546505307",
+  target: "_blank",
+  className:
+    "bg-[#0071e3] text-white px-8 py-3 rounded-full hover:bg-[#0077ED] transition-colors text-lg font-medium",
+  children: "Secure Your Device",
+});
       P.jsx("button", {
         className:
           "bg-[#f5f5f7] text-[#0071e3] px-8 py-3 rounded-full hover:bg-[#e8e8ed] transition-colors text-lg font-medium",
